@@ -1,0 +1,2 @@
+defmodule Minstrel do
+end
