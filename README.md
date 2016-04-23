@@ -1,5 +1,7 @@
 # Minstrel
 
+[![Build Status](https://travis-ci.org/yulii/minstrel.svg?branch=master)](https://travis-ci.org/yulii/minstrel)
+
 **TODO: Add description**
 
 ## Installation
@@ -17,4 +19,3 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
         def application do
           [applications: [:minstrel]]
         end
-
