@@ -22,6 +22,6 @@ defmodule Minstrel do
   end
 
   def pop(key, data) do
-    Minstrel.Net.pop(Map.merge(config(key), data))
+    Minstrel.Pack.deliver(Map.merge(config(key), data))
   end
 end
