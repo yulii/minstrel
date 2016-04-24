@@ -11,11 +11,13 @@ defmodule Minstrel.Mixfile do
   end
 
   def application do
-    [applications: [:logger]]
+    [applications: [:logger, :httpoison]]
   end
 
   defp deps do
-    [{:dogma, "~> 0.1", only: :dev}
+    [ {:dogma, "~> 0.1", only: :dev},
+      {:httpoison, "~> 0.8.3"},
+      {:poison, "~> 2.0"}
     ]
   end
 end
